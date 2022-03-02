@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  /* font-size: 16px; */
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1100px;
+  padding: 20px;
+}
+
+/* Navbar */
+/* .navbar {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.425);
+}
+
+.navbar .inner_container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .logo h1 {
+  font-size: 2rem;
+  font-weight: 500;
+} */
+/* .navbar {
+  background-image: linear-gradient(to right, red, yellow);
+} */
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header .top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  /* background: url(/images/warming.svg); */
+}
+
+.main_callout h1 {
+  /* font-size: 55px; */
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+.callout_logo {
+  max-width: 15%;
+  max-height: 150px;
+}
+.callout_logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.header .links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header .single_link {
+  padding: 2px 5px;
+  color: rgb(54, 54, 54);
+  font-weight: 600;
+}
+
+.header .single_link:hover {
+  background-color: rgb(132, 255, 255);
+}
+
+/* image banner */
+
+.image_banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  height: 50vh;
+  max-height: 400px;
+  background: linear-gradient(
+      135deg,
+      rgba(199, 199, 199, 0.164) 0%,
+      rgba(0, 0, 0, 0.39) 100%
+    ),
+    url(/images/andy-brunner-HYydGAwvnrk-unsplash.jpg) no-repeat fixed;
+  background-position: center;
+  background-size: cover;
+}
+.banner_content {
+  display: flex;
+  max-width: 1100px;
+  width: 100%;
+  padding: 20px;
+  font-size: 3rem;
+  font-weight: 600;
+  color: white;
+  text-transform: capitalize;
+}
